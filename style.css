@@ -1,0 +1,218 @@
+
+/* estilogeral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #000000;
+    height: 100vh;
+
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* estilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00aeff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h2.título{
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+ button:hover{
+    box-shadow: 0px 0px 8px rgb(0, 174, 255);
+ }
+h2.título span{
+    color: #00aeff;
+}
+header .btn-contato button:hover{
+     box-shadow: 0px 0px 8px rgb(0, 174, 255); ;
+}
+.img-topo-site img{
+    width: 400px;
+    border-radius: 30px;
+}
+.img-topo-site{
+    display: flex;
+    justify-content: end;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo-do-site .txt-topo-site h1{
+    color: white;
+}
+.topo-do-site .txt-topo-site p{
+    color: white;
+    width: 500px;
+    margin-bottom: 0;
+    margin: 40px 0;
+}
+h1.span{
+    color: #00aeff;
+
+}
+
+.btn-contato a button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00aeff;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.btn-contato2 a button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: red;
+    border: 0;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px rgb(0, 174, 255);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.btn-contato2 button:hover{
+    box-shadow: 0px 0px 8px rgb(235, 9, 24);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/*estilo das especialidades*/
+section.especialidades{
+    padding: 200px 4%;
+
+}
+section.especialidades .flex{
+    gap: 60px;
+
+}
+.especialidades .especialidades-box{
+    color: #fff;
+    padding: 27px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff70 ;
+    
+
+}
+.especialidades .especialidades-box i{
+    font-size: 80px;
+    color: #00aeff;
+
+}
+.especialidades .especialidades-box h3{
+    font-size: 27px;
+    margin: 15px 0;
+}
+/*Estilo do sobremim*/
+section.sobremim{
+    padding: 40px 4%;
+}
+section.sobremim .flex{
+    align-items: center;
+    gap: 60px;
+
+}
+.sobremim .txt-sobre{
+    color: #fff;
+}
+.sobremim .txt-sobre h2{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+}
+.sobremim .txt-sobre h2 span{
+    color: #00aeff;
+    display: block;
+}
+.sobremim .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobremim .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #00aeff;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+.img-sobre img{
+    width: 350px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: end;
+}
+
+.school {
+    width: 150px;
+}
+
+
+.school2 {
+    width: 110px;
+}
+
+.school3 {
+    width: 100px;
+}
