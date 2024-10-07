@@ -224,3 +224,13 @@ footer {
     color: #00aeff;
     padding: 20px;
 }
+
+iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facul{
+    color: white;
+}
