@@ -216,3 +216,11 @@ section.sobremim .flex{
 .school3 {
     width: 100px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #00aeff;
+    padding: 20px;
+}
